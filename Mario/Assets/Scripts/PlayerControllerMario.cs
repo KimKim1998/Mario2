@@ -46,9 +46,6 @@ public class PlayerControllerMario : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey("escape"))
-            Application.Quit();
-
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
             anim.SetBool("isRunning", true);
